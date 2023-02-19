@@ -1,0 +1,2 @@
+D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\Definitions.ShootingGame.h
+D:\UnrealProject\UnrealShootingGame\ShootingGame\Source\ShootingGame\ShootingGame.h
