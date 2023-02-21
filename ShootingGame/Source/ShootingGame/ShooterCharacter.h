@@ -26,6 +26,16 @@ protected:
 	// Called for side to side input
 	void MoveRight(float Value);
 
+	// Called via input to turn at a given rate
+	// 정해진 속도로 돌기 위한 함수. 
+	// @param Rate	This is a normalized rate , i.e. 1.0 means 100% desired turn rate
+	// 매개변수 Rate 는 회전률의 평균값이다 . 1% 는 100% 최대속도 회전값이다.
+	void TurnAtRate(float Rate);
+
+	// Called via input to look up/down at a given rate
+	// @param Rate	This is a normalized rate , i.e. 1.0 means 100% of desired rate
+	void LookUpAtRate(float Rate);
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -43,6 +53,14 @@ private:
 	// Camera that follows the character
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
+	// Base Turn Rate , in degree/second . Ohter scaling may affect final turn rate
+	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category = Camera, meta = (AllowPrivateAccess = "true"))
+	float BaseTurnRate;
+
+	// Base Look up/down rate , in deg/sec. Other sacling may affect final turn rate
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	float BaseLookUpRate;
 
 public:
 	// Returns CameraBoom subobject

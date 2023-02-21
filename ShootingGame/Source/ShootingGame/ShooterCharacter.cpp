@@ -6,6 +6,8 @@
 #include "Camera/CameraComponent.h"
 // Sets default values
 AShooterCharacter::AShooterCharacter()
+	:BaseTurnRate(90.f)
+	,BaseLookUpRate(90.f)
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -63,6 +65,23 @@ void AShooterCharacter::MoveRight(float Value)
 	}
 }
 
+void AShooterCharacter::TurnAtRate(float Rate)
+{
+	// deg/sec * sec/frame
+	// BaseTurn Rate == 초당 회전할 각도
+	// 뭔가 나중에 설정값으로 회전 감도를 설정하기 위해 해당 설정을 하는건가?
+	
+	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+
+}
+
+void AShooterCharacter::LookUpAtRate(float Rate)
+{
+	// deg/sec * sec/frame
+	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+
+}
+
 // Called every frame
 void AShooterCharacter::Tick(float DeltaTime)
 {
@@ -78,6 +97,9 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 	PlayerInputComponent->BindAxis("MoveForward",this, &AShooterCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AShooterCharacter::MoveRight);
+
+	PlayerInputComponent->BindAxis("TurnRate", this, &AShooterCharacter::TurnAtRate);
+	PlayerInputComponent->BindAxis("LookUpRate", this, &AShooterCharacter::LookUpAtRate);
 
 }
 
