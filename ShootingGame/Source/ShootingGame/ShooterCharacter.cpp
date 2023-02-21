@@ -48,6 +48,8 @@ void AShooterCharacter::MoveForward(float Value)
 		const FRotator YawRotation{ 0,Rotation.Yaw,0 };
 
 		const FVector Direction{ FRotationMatrix{YawRotation}.GetUnitAxis(EAxis::X) };
+		UE_LOG(LogTemp, Warning, TEXT("VecSize : %.5f"), Direction.Size());
+
 		AddMovementInput(Direction, Value);
 	}
 }
@@ -101,5 +103,13 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	PlayerInputComponent->BindAxis("TurnRate", this, &AShooterCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AShooterCharacter::LookUpAtRate);
 
-}
+	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+
+	// 캐릭터 클래스에 구현되어있는 점프를 넣는다
+	PlayerInputComponent->BindAction("Jump", IE_Pressed,this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+
+} 
 
