@@ -3,6 +3,7 @@
 
 #include "ShooterCharacter.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "Camera/CameraComponent.h"
 // Sets default values
 AShooterCharacter::AShooterCharacter()
@@ -30,6 +31,16 @@ AShooterCharacter::AShooterCharacter()
 	// Camera doesn't rotate relative to arm
 	FollowCamera->bUsePawnControlRotation = false;
 
+	// Don't Rotate when the controller rotates. Let the controller only affect the camaera.
+	bUseControllerRotationPitch = false;
+	bUseControllerRotationYaw = false;
+	bUseControllerRotationRoll = false;
+	
+	// Configure character movement
+	GetCharacterMovement()->bOrientRotationToMovement = true; // character moves in the direction of input ...
+	GetCharacterMovement()->RotationRate = FRotator(0.f, 560.f, 0.f); // ... at this rotation rate
+	GetCharacterMovement()->JumpZVelocity = 600.0f;
+	GetCharacterMovement()->AirControl = 0.2f;
 }
 
 // Called when the game starts or when spawned
