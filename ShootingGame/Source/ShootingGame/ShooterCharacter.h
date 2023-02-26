@@ -36,6 +36,9 @@ protected:
 	// @param Rate	This is a normalized rate , i.e. 1.0 means 100% of desired rate
 	void LookUpAtRate(float Rate);
 
+	// Called when the Fire button is pressed
+	void FireWeapon();
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -61,6 +64,18 @@ private:
 	// Base Look up/down rate , in deg/sec. Other sacling may affect final turn rate
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	float BaseLookUpRate;
+
+	// Randomized gunshot sound cue
+	UPROPERTY(EditAnywhere,BlueprintReadWrite, Category = Combat , meta = (AllowPrivateAccess = "true"))
+	class USoundCue* FireSound;
+
+	// Flash Spawned at BarrelSocket
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Combat, meta = (AllowPrivateAccess = "true"))
+	class UParticleSystem* MuzzleFlash;
+
+	// Mongate for firing the weapon
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Combat, meta = (AllowPrivateAccess = "true"))
+	class UAnimMontage* HipFireMontage;
 
 public:
 	// Returns CameraBoom subobject
