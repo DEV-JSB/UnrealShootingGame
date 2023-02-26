@@ -9,6 +9,7 @@
 #include "Sound/SoundCue.h"
 #include "Engine/SkeletalMeshSocket.h"
 
+#include "DrawDebugHelpers.h"
 // Sets default values
 AShooterCharacter::AShooterCharacter()
 	:BaseTurnRate(90.f)
@@ -115,6 +116,22 @@ void AShooterCharacter::FireWeapon()
 		if (MuzzleFlash)
 		{
 			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), MuzzleFlash, SocketTransform);
+		}
+
+		FHitResult FireHit;
+		const FVector Start{ SocketTransform.GetLocation() };
+		// 회전축을 얻는 것
+		const FQuat Rotation{ SocketTransform.GetRotation() };
+		// 소켓으로 부터 전방 Vector 을 얻는 과정
+		const FVector RotationAxis{ Rotation.GetAxisX() };
+		const FVector End{ Start + RotationAxis * 50'000.f };
+		GetWorld()->LineTraceSingleByChannel(FireHit, Start, End, ECollisionChannel::ECC_Visibility);
+
+		if (FireHit.bBlockingHit)
+		{
+			DrawDebugLine(GetWorld(), Start, End, FColor::Red, false, 2.0f);
+			DrawDebugPoint(GetWorld(), FireHit.Location, 5.f,FColor::Red,false,2.0f);
+
 		}
 
 	}
