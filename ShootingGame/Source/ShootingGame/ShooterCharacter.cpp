@@ -122,6 +122,61 @@ void AShooterCharacter::FireWeapon()
 			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), MuzzleFlash, SocketTransform);
 		}
 
+		// Get Current size of the view port
+		FVector2D ViewportSize;
+		if (GEngine && GEngine->GameViewport)
+		{
+			GEngine->GameViewport->GetViewportSize(ViewportSize);
+		}
+
+		//Get Screen space of crosshairs
+		FVector2D CrosshairLocation(ViewportSize.X / 2.f, ViewportSize.Y / 2.f);
+		CrosshairLocation.Y -= 50.0f;
+
+		FVector CrosshairWorldPosition;
+		FVector CrosshairWorldDirection;
+
+		//Get World position and direction of crosshairs
+		bool bScreenToWorld = UGameplayStatics::DeprojectScreenToWorld(UGameplayStatics::GetPlayerController(this, 0)
+																							, CrosshairLocation
+																							, CrosshairWorldPosition
+																							, CrosshairWorldDirection);
+		// was deprojection successful?
+		if (bScreenToWorld)
+		{
+			FHitResult ScreenTraceHit;
+			const FVector Start{ CrosshairWorldPosition };
+			const FVector End{ CrosshairWorldPosition + CrosshairWorldDirection * 50'000.f };
+
+			// Set beam end point  to line trace end point
+			FVector BeamEndPoint{ End };
+			// Trace outward from crosshairs world location
+			GetWorld()->LineTraceSingleByChannel(ScreenTraceHit
+														, Start	
+														, End
+														, ECollisionChannel::ECC_Visibility);
+			// was ther a tarce hit?
+			if (ScreenTraceHit.bBlockingHit)
+			{
+				// Beam end point is now trace hit location
+				BeamEndPoint = ScreenTraceHit.Location;
+				if (ImpactParticles)
+				{
+					UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactParticles, ScreenTraceHit.Location);
+				}
+
+			}
+			if (BeamParticles)
+			{
+				UParticleSystemComponent* Beam = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BeamParticles, SocketTransform);
+				if (Beam)
+				{
+					Beam->SetVectorParameter(FName("Target"), BeamEndPoint);
+				}
+			}
+		}
+
+		/*
 		FHitResult FireHit;
 		const FVector Start{ SocketTransform.GetLocation() };
 		// 회전축을 얻는 것
@@ -147,6 +202,7 @@ void AShooterCharacter::FireWeapon()
 			}
 
 		}
+		
 		if (BeamParticles)
 		{
 			UParticleSystemComponent* Beam = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BeamParticles, SocketTransform);
@@ -156,8 +212,9 @@ void AShooterCharacter::FireWeapon()
 			}
 
 		}
+		*/
 	}
-
+	
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 	if (AnimInstance && HipFireMontage)
 	{
