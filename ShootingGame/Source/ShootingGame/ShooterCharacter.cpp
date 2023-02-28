@@ -8,6 +8,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Sound/SoundCue.h"
 #include "Engine/SkeletalMeshSocket.h"
+#include "Particles/ParticleSystemComponent.h"
 
 #include "DrawDebugHelpers.h"
 // Sets default values
@@ -29,6 +30,8 @@ AShooterCharacter::AShooterCharacter()
 	CameraBoom->bUsePawnControlRotation = true;
 
 
+	CameraBoom->SocketOffset = FVector(0.f, 50.f, 50.f);
+
 	// Create a Foolow Camera
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	// Attach camera to end of
@@ -38,11 +41,12 @@ AShooterCharacter::AShooterCharacter()
 
 	// Don't Rotate when the controller rotates. Let the controller only affect the camaera.
 	bUseControllerRotationPitch = false;
-	bUseControllerRotationYaw = false;
+	//33. 수정
+	bUseControllerRotationYaw = true;
 	bUseControllerRotationRoll = false;
 	
 	// Configure character movement
-	GetCharacterMovement()->bOrientRotationToMovement = true; // character moves in the direction of input ...
+	GetCharacterMovement()->bOrientRotationToMovement = false; // character moves in the direction of input ...
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 560.f, 0.f); // ... at this rotation rate
 	GetCharacterMovement()->JumpZVelocity = 600.0f;
 	GetCharacterMovement()->AirControl = 0.2f;
@@ -125,15 +129,33 @@ void AShooterCharacter::FireWeapon()
 		// 소켓으로 부터 전방 Vector 을 얻는 과정
 		const FVector RotationAxis{ Rotation.GetAxisX() };
 		const FVector End{ Start + RotationAxis * 50'000.f };
+
+		FVector BeamEndPoint{ End };
+
 		GetWorld()->LineTraceSingleByChannel(FireHit, Start, End, ECollisionChannel::ECC_Visibility);
 
 		if (FireHit.bBlockingHit)
 		{
-			DrawDebugLine(GetWorld(), Start, End, FColor::Red, false, 2.0f);
-			DrawDebugPoint(GetWorld(), FireHit.Location, 5.f,FColor::Red,false,2.0f);
+			//DrawDebugLine(GetWorld(), Start, End, FColor::Red, false, 2.0f);
+			//DrawDebugPoint(GetWorld(), FireHit.Location, 5.f,FColor::Red,false,2.0f);
+
+			BeamEndPoint = FireHit.Location;
+
+			if (ImpactParticles)
+			{
+				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactParticles, FireHit.Location);
+			}
 
 		}
+		if (BeamParticles)
+		{
+			UParticleSystemComponent* Beam = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BeamParticles, SocketTransform);
+			if (Beam)
+			{
+				Beam->SetVectorParameter(FName("Target"), BeamEndPoint);
+			}
 
+		}
 	}
 
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();

@@ -44,4 +44,11 @@ D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundNode.g
 D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundCue.generated.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/SkeletalMeshSocket.h
 D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkeletalMeshSocket.generated.h
+D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
+D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystem.h
+D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Classes\Particles/ParticlePerfStats.h
+D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystem.generated.h
+D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
+D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
+D:\MVAT\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
 D:\MVAT\UE_4.26\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
