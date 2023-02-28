@@ -1,17 +1,13 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProject\UnrealShootingGame).
-  Parsing headers for ShootingGameEditor
-    Running UnrealHeaderTool "D:\UnrealProject\UnrealShootingGame\ShootingGame\ShootingGame.uproject" "D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\ShootingGameEditor\Development\ShootingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mvat1\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for ShootingGameEditor in 3.4019961 seconds
+  Deleted hot-reload file: D:\UnrealProject\UnrealShootingGame\ShootingGame\Binaries\Win64\UE4Editor-ShootingGame-0001.dll
+  Deleted hot-reload file: D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0001.lib
   Building ShootingGameEditor...
   Using Visual Studio 2019 14.29.30146 toolchain (D:\VS2019\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 16 processes...
-    [1/6] ShooterAnimInstance.gen.cpp
-    [2/6] ShooterAnimInstance.cpp
-    [3/6] ShooterCharacter.cpp
-    [4/6] UE4Editor-ShootingGame-0006.lib
-       Creating library D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0006.lib and object D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0006.exp
-    [5/6] UE4Editor-ShootingGame-0006.dll
-       Creating library D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0006.suppressed.lib and object D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0006.suppressed.exp
-    [6/6] ShootingGameEditor.target
-  Total time in Parallel executor: 6.67 seconds
-  Total execution time: 10.53 seconds
+  Building 3 actions with 16 processes...
+    [1/3] UE4Editor-ShootingGame.lib
+       Creating library D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame.lib and object D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame.exp
+    [2/3] UE4Editor-ShootingGame.dll
+       Creating library D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame.suppressed.lib and object D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame.suppressed.exp
+    [3/3] ShootingGameEditor.target
+  Total time in Parallel executor: 0.73 seconds
+  Total execution time: 1.08 seconds
