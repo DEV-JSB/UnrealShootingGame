@@ -1881,3 +1881,556 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.02-11.02.59:706][805]PIE: Server logged in
 [2023.03.02-11.02.59:707][805]PIE: Play in editor total start time 0.042 seconds.
 [2023.03.02-11.03.09:905][371]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.20.21:185][362]LogRenderer: Reallocating scene render targets to support 1236x620 Format 10 NumSamples 1 (Frame:4462).
+[2023.03.02-11.20.21:222][363]LogRenderer: Reallocating scene render targets to support 1252x620 Format 10 NumSamples 1 (Frame:4463).
+[2023.03.02-11.20.21:266][364]LogRenderer: Reallocating scene render targets to support 1256x620 Format 10 NumSamples 1 (Frame:4464).
+[2023.03.02-11.20.21:304][365]LogRenderer: Reallocating scene render targets to support 1260x620 Format 10 NumSamples 1 (Frame:4465).
+[2023.03.02-11.20.22:706][515]LogRenderer: Reallocating scene render targets to support 1260x632 Format 10 NumSamples 1 (Frame:4590).
+[2023.03.02-11.20.22:744][516]LogRenderer: Reallocating scene render targets to support 1260x648 Format 10 NumSamples 1 (Frame:4591).
+[2023.03.02-11.20.22:790][517]LogRenderer: Reallocating scene render targets to support 1260x652 Format 10 NumSamples 1 (Frame:4592).
+[2023.03.02-11.20.22:829][518]LogRenderer: Reallocating scene render targets to support 1260x656 Format 10 NumSamples 1 (Frame:4593).
+[2023.03.02-11.20.22:864][519]LogRenderer: Reallocating scene render targets to support 1260x660 Format 10 NumSamples 1 (Frame:4594).
+[2023.03.02-11.20.24:213][673]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.20.25:880][873]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.20.26:021][890]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.20.26:180][909]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.20.26:346][929]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.20.26:471][944]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.20.26:781][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-11.20.26:781][975]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.02-11.20.26:781][975]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.20.26:782][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.20.26:798][975]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-11.20.26:813][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.20.26:815][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-11.20.26:816][975]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-11.20.26:817][975]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-11.20.26:831][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.03.02-11.20.26:859][976]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.03.02-11.20.27:111][  3]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.03.02-11.20.27:118][  3]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMapE7810E01415B23AAB3A0A3B1E6F8E594.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap.umap'
+[2023.03.02-11.20.27:128][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2023.03.02-11.20.27:140][  3]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap_BuiltData290EA0344F3777D146E1C09BE08E873E.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2023.03.02-11.20.27:150][  3]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.02-11.20.27:150][  3]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2023.03.02-11.20.27:150][  3]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2023.03.02-11.21.12:766][665]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Game/Character/ShooterCharacterBP.ShooterCharacterBP
+[2023.03.02-11.21.13:490][665]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2023.03.02-11.21.16:309][763]LogSlate: Window 'ShooterCharacterBP' being destroyed
+[2023.03.02-11.21.16:340][763]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.21.16:340][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.21.16:470][763]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Game/Character/ShooterCharacterBP.ShooterCharacterBP
+[2023.03.02-11.21.17:142][763]LogSlate: Took 0.028049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.03.02-11.21.31:731][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Character/ShooterCharacterBP" FILE="../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/ShooterCharacterBP.uasset" SILENT=true
+[2023.03.02-11.21.31:749][286]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/ShooterCharacterBP463D378B47F518DC21777FA0B69FD9A1.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/ShooterCharacterBP.uasset'
+[2023.03.02-11.21.31:760][286]AssetCheck: New page: Asset Save: ShooterCharacterBP
+[2023.03.02-11.21.31:760][286]LogContentValidation: Display: Validating Blueprint /Game/_Game/Character/ShooterCharacterBP.ShooterCharacterBP
+[2023.03.02-11.21.32:269][332]BlueprintLog: New page: Compile ShooterCharacterBP
+[2023.03.02-11.21.32:489][332]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.03.02-11.21.32:526][332]LogSlate: Took 0.013599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.03.02-11.21.32:714][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Character/ShooterCharacterBP" FILE="../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/ShooterCharacterBP.uasset" SILENT=true
+[2023.03.02-11.21.32:722][346]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/ShooterCharacterBPF97DEE484691BC10F461A99B99EE3E5B.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/ShooterCharacterBP.uasset'
+[2023.03.02-11.21.32:734][346]AssetCheck: New page: Asset Save: ShooterCharacterBP
+[2023.03.02-11.21.32:734][346]LogContentValidation: Display: Validating Blueprint /Game/_Game/Character/ShooterCharacterBP.ShooterCharacterBP
+[2023.03.02-11.21.34:326][491]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-11.21.34:330][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-11.21.34:330][491]PIE: New page: PIE session: DefaultMap (2023. 3. 3. 오전 5:21:34)
+[2023.03.02-11.21.34:370][491]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.02-11.21.34:372][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001880s)
+[2023.03.02-11.21.34:373][491]LogAIModule: Creating AISystem for world DefaultMap
+[2023.03.02-11.21.34:373][491]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2023.03.02-11.21.34:373][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.002921s)
+[2023.03.02-11.21.34:389][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.03.02-11.21.34:390][491]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.03.02-11.21.34:390][491]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-11.21.34:390][491]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-11.21.34:390][491]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-11.21.34:390][491]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-11.21.34:390][491]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-11.21.34:390][491]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-11.21.34:390][491]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-11.21.34:390][491]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-11.21.34:391][491]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.02-11.21.34:391][491]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-11.21.34:392][491]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-11.21.34:392][491]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-11.21.34:404][491]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.03.02-11.21.34:405][491]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-11.21.34:405][491]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-11.21.34:405][491]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-11.21.34:405][491]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-11.21.34:405][491]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-11.21.34:405][491]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-11.21.34:416][491]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-11.21.34:416][491]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-11.21.34:416][491]LogInit: FAudioDevice initialized.
+[2023.03.02-11.21.34:416][491]LogAudio: Display: Audio Device (ID: 17) registered with world 'DefaultMap'.
+[2023.03.02-11.21.34:426][491]LogLoad: Game class is 'ShootingGameGameModeBaseBP_C'
+[2023.03.02-11.21.34:427][491]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2023.03.02-20.21.34
+[2023.03.02-11.21.34:427][491]LogWorld: Bringing up level for play took: 0.000537
+[2023.03.02-11.21.34:427][491]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2023.03.02-11.21.34:431][491]PIE: Server logged in
+[2023.03.02-11.21.34:431][491]PIE: Play in editor total start time 0.102 seconds.
+[2023.03.02-11.21.35:641][624]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.39:357][ 70]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.39:516][ 89]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.39:632][103]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.39:782][121]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.39:907][136]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.40:066][155]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.40:174][168]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.40:324][186]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.40:474][204]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.40:624][222]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.40:757][238]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.40:907][256]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.41:107][280]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.41:741][356]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.41:891][374]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.21.42:220][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-11.21.42:220][409]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.02-11.21.42:221][409]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.21.42:221][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.21.42:230][409]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-11.21.42:246][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.21.42:259][409]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-11.21.42:260][409]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-11.21.42:261][409]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-11.21.42:273][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-11.21.42:276][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.03.02-11.21.42:304][410]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.03.02-11.21.42:593][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.03.02-11.21.42:600][440]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap259F94614E2995D96D5A21961E5FC79D.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap.umap'
+[2023.03.02-11.21.42:609][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2023.03.02-11.21.42:622][440]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap_BuiltData309B2F394B509AE05798EEA2F77B163C.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2023.03.02-11.21.42:633][440]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.02-11.21.42:633][440]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2023.03.02-11.21.42:633][440]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2023.03.02-11.22.16:097][367]LogSlate: Window 'Pick Skeleton' being destroyed
+[2023.03.02-11.22.16:124][367]LogContentBrowser: Deferred new asset file creation: NewBlendSpace
+[2023.03.02-11.22.16:169][367]LogContentBrowser: Creating deferred item: NewBlendSpace
+[2023.03.02-11.22.17:217][460]LogContentBrowser: Attempting asset rename: NewBlendSpace -> NewBlendSpace
+[2023.03.02-11.22.17:236][460]LogContentBrowser: End creating deferred item NewBlendSpace
+[2023.03.02-11.22.17:552][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK01': Can't find file.
+[2023.03.02-11.22.17:552][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK01': Can't find file.
+[2023.03.02-11.22.17:552][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK02': Can't find file.
+[2023.03.02-11.22.17:552][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK02': Can't find file.
+[2023.03.02-11.22.17:553][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK03': Can't find file.
+[2023.03.02-11.22.17:553][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK03': Can't find file.
+[2023.03.02-11.22.17:553][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_N': Can't find file.
+[2023.03.02-11.22.17:553][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_N': Can't find file.
+[2023.03.02-11.22.17:553][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_RGB': Can't find file.
+[2023.03.02-11.22.17:553][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_RGB': Can't find file.
+[2023.03.02-11.22.17:553][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/Tacticia_DroneBomb_EmissiveMask': Can't find file.
+[2023.03.02-11.22.17:553][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/Tacticia_DroneBomb_EmissiveMask': Can't find file.
+[2023.03.02-11.22.17:554][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK01': Can't find file.
+[2023.03.02-11.22.17:554][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK02': Can't find file.
+[2023.03.02-11.22.17:554][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK03': Can't find file.
+[2023.03.02-11.22.17:554][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_N': Can't find file.
+[2023.03.02-11.22.17:554][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_RGB': Can't find file.
+[2023.03.02-11.22.17:554][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/Tacticia_DroneBomb_EmissiveMask': Can't find file.
+[2023.03.02-11.22.17:641][460]LogTexture: Display: Building textures: T_small_Gradient (AutoDXT, 256X64)
+[2023.03.02-11.22.17:641][460]LogTexture: Display: Building textures: T_SlashMask_A_NoClamp (AutoDXT, 512X32)
+[2023.03.02-11.22.17:641][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_RGB': Can't find file.
+[2023.03.02-11.22.17:641][460]LoadErrors: Failed to load /Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_RGB.T_Tacticia_m02_tacticia_dronebomb_skin02_RGB Referenced by MaterialExpressionTextureObject_0
+[2023.03.02-11.22.17:641][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK03': Can't find file.
+[2023.03.02-11.22.17:641][460]LoadErrors: Failed to load /Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK03.T_Tacticia_m02_tacticia_dronebomb_skin02_MASK03 Referenced by MaterialExpressionTextureSample_0
+[2023.03.02-11.22.17:641][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_RGB': Can't find file.
+[2023.03.02-11.22.17:641][460]LoadErrors: Failed to load /Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_RGB.T_Tacticia_m02_tacticia_dronebomb_skin02_RGB Referenced by MaterialExpressionTextureSample_1
+[2023.03.02-11.22.17:641][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK02': Can't find file.
+[2023.03.02-11.22.17:641][460]LoadErrors: Failed to load /Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK02.T_Tacticia_m02_tacticia_dronebomb_skin02_MASK02 Referenced by MaterialExpressionTextureSample_10
+[2023.03.02-11.22.17:641][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK01': Can't find file.
+[2023.03.02-11.22.17:641][460]LoadErrors: Failed to load /Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK01.T_Tacticia_m02_tacticia_dronebomb_skin02_MASK01 Referenced by MaterialExpressionTextureSample_13
+[2023.03.02-11.22.17:642][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK02': Can't find file.
+[2023.03.02-11.22.17:642][460]LoadErrors: Failed to load /Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_MASK02.T_Tacticia_m02_tacticia_dronebomb_skin02_MASK02 Referenced by MaterialExpressionTextureSample_14
+[2023.03.02-11.22.17:642][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_N': Can't find file.
+[2023.03.02-11.22.17:642][460]LoadErrors: Failed to load /Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/T_Tacticia_m02_tacticia_dronebomb_skin02_N.T_Tacticia_m02_tacticia_dronebomb_skin02_N Referenced by MaterialExpressionTextureSample_15
+[2023.03.02-11.22.17:642][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/Tacticia_DroneBomb_EmissiveMask': Can't find file.
+[2023.03.02-11.22.17:642][460]LoadErrors: Failed to load /Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/Tacticia_DroneBomb_EmissiveMask.Tacticia_DroneBomb_EmissiveMask Referenced by MaterialExpressionTextureSample_2
+[2023.03.02-11.22.17:642][460]LogLinker: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to load '/Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/Tacticia_DroneBomb_EmissiveMask': Can't find file.
+[2023.03.02-11.22.17:642][460]LoadErrors: Failed to load /Game/ParagonLtBelica/Characters/Heroes/Belica/Textures/Tacticia_DroneBomb_EmissiveMask.Tacticia_DroneBomb_EmissiveMask Referenced by MaterialExpressionTextureSample_7
+[2023.03.02-11.22.18:825][460]LogTexture: Display: Building textures: T_ML_Metal_Braided_01_N (BC5, 2048X2048)
+[2023.03.02-11.22.18:825][460]LogTexture: Display: Building textures: T_TechPatternA (AutoDXT, 2048X2048)
+[2023.03.02-11.22.18:825][460]LogTexture: Display: Building textures: T_ML_Metal_Braided_01_MASK (AutoDXT, 2048X2048)
+[2023.03.02-11.22.18:826][460]LogSkeletalMesh: Building Skeletal Mesh Belica_Drone...
+[2023.03.02-11.22.18:857][460]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/ParagonLtBelica/Characters/Heroes/Belica/Meshes/Belica_Drone/Meshes/Belica_Drone.Belica_Drone
+[2023.03.02-11.22.18:860][460]LogMaterial: Display: Missing cached shader map for material M_Belica_DroneBomb, compiling. 
+[2023.03.02-11.22.18:907][460]LogMaterial: Warning: [AssetLog] D:\UnrealProject\UnrealShootingGame\ShootingGame\Content\ParagonLtBelica\Characters\Heroes\Belica\Materials\M_Belica_DroneBomb.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_RoughPlastic: (Node MakeMaterialAttributes) Error on property Normal
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function MatLayerBlend_TenLayerBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_LowContrastHardMetal: (Node MakeMaterialAttributes) Error on property Normal
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_Metal_Braided: (Node MakeMaterialAttributes) Error on property Normal
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function MatLayerBlend_TenLayerBlend: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function MatLayerBlend_Emissive: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	(Node TextureObject) Texture Object> Requires valid texture
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_RoughPlastic: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function MatLayerBlend_TenLayerBlend: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_Primer_Colored_Metal: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_Rubber_LowContrast: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_LowContrastHardMetal: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_Metal_Braided: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function MF_CharacterEffects: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_RoughPlastic: (Node MakeMaterialAttributes) Error on property Metallic
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function MatLayerBlend_TenLayerBlend: (Node MakeMaterialAttributes) Error on property Metallic
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_Primer_Colored_Metal: (Node MakeMaterialAttributes) Error on property Metallic
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_Rubber_LowContrast: (Node MakeMaterialAttributes) Error on property Metallic
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_Metal_Braided: (Node MakeMaterialAttributes) Error on property Metallic
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function MatLayerBlend_TenLayerBlend: (Node MakeMaterialAttributes) Error on property Specular
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function MF_OrionCharacterAO: (Node MakeMaterialAttributes) Error on property Specular
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_RoughPlastic: (Node MakeMaterialAttributes) Error on property Roughness
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function MatLayerBlend_TenLayerBlend: (Node MakeMaterialAttributes) Error on property Roughness
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_Primer_Colored_Metal: (Node MakeMaterialAttributes) Error on property Roughness
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_Rubber_LowContrast: (Node MakeMaterialAttributes) Error on property Roughness
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_LowContrastHardMetal: (Node MakeMaterialAttributes) Error on property Roughness
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function ML_Metal_Braided: (Node MakeMaterialAttributes) Error on property Roughness
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function MF_OrionCharacterAO: (Node MakeMaterialAttributes) Error on property Roughness
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function MF_OrionCharacterAO: (Node MakeMaterialAttributes) Error on property AmbientOcclusion
+[2023.03.02-11.22.18:907][460]LogMaterial: Display: 	Function MatLayerBlend_TenLayerBlend: (Node MakeMaterialAttributes) Error on property PixelDepthOffset
+[2023.03.02-11.22.20:168][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.03.02-11.22.21:185][559]LogSlate: Window 'Delete Assets' being destroyed
+[2023.03.02-11.22.21:235][559]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/_Game/Character/Animations/NewBlendSpace.NewBlendSpace
+[2023.03.02-11.22.25:870][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.03.02-11.22.32:071][956]LogSlate: Window 'Pick Skeleton' being destroyed
+[2023.03.02-11.22.32:084][956]LogContentBrowser: Deferred new asset file creation: NewBlendSpace
+[2023.03.02-11.22.32:093][956]LogContentBrowser: Creating deferred item: NewBlendSpace
+[2023.03.02-11.22.36:270][ 49]LogContentBrowser: Attempting asset rename: NewBlendSpace -> NewBlendSpace
+[2023.03.02-11.22.36:271][ 49]LogContentBrowser: End creating deferred item NewBlendSpace
+[2023.03.02-11.22.42:601][370]LogContentBrowser: Attempting asset rename: NewBlendSpace -> Running
+[2023.03.02-11.22.42:653][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Character/Animations/Running" FILE="../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/Running.uasset" SILENT=true
+[2023.03.02-11.22.42:657][370]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningF24949DA4B5999382BED178136B01CCD.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/Running.uasset'
+[2023.03.02-11.22.42:732][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.03.02-11.22.42:753][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.03.02-11.22.42:766][370]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.03.02-11.22.42:816][370]AssetCheck: New page: Asset Save: Running
+[2023.03.02-11.22.42:816][370]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/Running.Running
+[2023.03.02-11.22.47:905][591]LogContentBrowser: Attempting asset rename: Running -> RunningBlendSpace
+[2023.03.02-11.22.47:954][591]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpace1B8E27814AA0E1A6BFA290BE191FCC34.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.22.48:065][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.03.02-11.22.48:085][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.03.02-11.22.48:099][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.03.02-11.22.48:122][591]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.22.48:122][591]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.22.51:173][866]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.22.51:388][866]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2023.03.02-11.22.51:866][866]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.02-11.22.51:871][866]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2023.03.02-11.23.20:258][511]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpaceCBB9A9224B25D9ABED2661B471B250E6.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.23.20:270][511]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.23.20:271][511]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.23.20:429][524]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpaceEBB65BBF46BE83A16A03F8A8859B44E8.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.23.20:441][524]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.23.20:441][524]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.23.26:421][105]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpace537F8182477852C02BCECF99E949E2F3.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.23.26:432][105]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.23.26:432][105]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.23.26:584][118]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpace46C6842F439FEBEC96BB3799F45212EE.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.23.26:594][118]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.23.26:594][118]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.24.07:986][195]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.03.02-11.24.48:716][468]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonLtBelica/Characters/Heroes/Belica/Animations/Jog_Bwd.Jog_Bwd
+[2023.03.02-11.25.18:470][282]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpace81CADF4C4DBB435820E882A8B097D8F2.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.25.18:485][282]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.25.18:485][282]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.25.40:015][210]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonLtBelica/Characters/Heroes/Belica/Animations/Jog_Right.Jog_Right
+[2023.03.02-11.25.49:270][  3]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ParagonLtBelica/Characters/Heroes/Belica/Animations/Jog_Left.Jog_Left
+[2023.03.02-11.25.50:604][111]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpace4557775C41F6EED075E40E88850565C0.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.25.50:616][111]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.25.50:616][111]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.26.44:385][564]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpace5269CDC149E648CD7F6BA0A908D66123.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.26.44:397][564]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.26.44:397][564]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.27.16:142][741]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpaceC4A443C34C452939006F968E874DF352.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.27.16:152][741]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.27.16:153][741]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.27.16:663][788]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpace2F1B6F3346A9DCBAA4ADAABBF8489671.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.27.16:675][788]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.27.16:675][788]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.27.23:675][205]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpaceDBAF72CF4783088A1FD40297D683CECA.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.27.23:686][205]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.27.23:686][205]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.27.24:438][265]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpace6E11520C4C29D17B9DD96BBBCF971FCD.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.27.24:450][265]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.27.24:450][265]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.27.24:948][299]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpace94D06AD9435A3E7C9DAE11B2CB26CC76.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.27.24:959][299]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.27.24:960][299]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.27.25:112][309]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/RunningBlendSpace0ED7A54849EF6E8BD4043D8CDE82C8E3.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/Animations/RunningBlendSpace.uasset'
+[2023.03.02-11.27.25:124][309]AssetCheck: New page: Asset Save: RunningBlendSpace
+[2023.03.02-11.27.25:124][309]LogContentValidation: Display: Validating BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.27.39:103][949]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/_Game/Character/ShooterAnimBP.ShooterAnimBP
+[2023.03.02-11.27.39:131][949]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.02-11.27.39:875][949]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.03.02-11.28.04:499][924]LogEditorTransaction: Undo Move Node
+[2023.03.02-11.28.04:633][924]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.02-11.28.04:636][924]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.02-11.28.04:862][931]LogEditorTransaction: Undo Delete current selection
+[2023.03.02-11.28.04:984][931]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.02-11.28.04:987][931]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.02-11.28.33:500][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Character/ShooterAnimBP" FILE="../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/ShooterAnimBP.uasset" SILENT=true
+[2023.03.02-11.28.33:529][591]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/ShooterAnimBP2640CD53484B813045C6CB969B087B25.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/ShooterAnimBP.uasset'
+[2023.03.02-11.28.33:542][591]AssetCheck: New page: Asset Save: ShooterAnimBP
+[2023.03.02-11.28.33:542][591]LogContentValidation: Display: Validating AnimBlueprint /Game/_Game/Character/ShooterAnimBP.ShooterAnimBP
+[2023.03.02-11.29.29:517][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Character/ShooterAnimBP" FILE="../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/ShooterAnimBP.uasset" SILENT=true
+[2023.03.02-11.29.29:546][786]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/ShooterAnimBPAD7707F7457898A1C9074F8630A470A9.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Character/ShooterAnimBP.uasset'
+[2023.03.02-11.29.29:559][786]AssetCheck: New page: Asset Save: ShooterAnimBP
+[2023.03.02-11.29.29:559][786]LogContentValidation: Display: Validating AnimBlueprint /Game/_Game/Character/ShooterAnimBP.ShooterAnimBP
+[2023.03.02-11.29.43:566][147]LogSlate: Window 'ShooterAnimBP' being destroyed
+[2023.03.02-11.29.43:571][147]LogSlate: Window 'ShooterAnimBP' being destroyed
+[2023.03.02-11.29.43:575][147]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.29.43:575][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.29.43:632][147]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.29.43:632][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.29.43:703][147]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.29.43:703][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.29.43:783][147]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.29.43:783][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.29.43:792][147]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.29.43:792][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.29.43:856][147]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.29.43:856][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.29.44:388][204]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-11.29.44:393][204]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.02-11.29.44:394][204]LogPlayLevel: [PlayLevel] Compiling ShooterAnimBP before play...
+[2023.03.02-11.29.44:487][204]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2023.03.02-11.29.44:491][204]LogPlayLevel: PlayLevel: Blueprint regeneration took 97 ms (1 blueprints)
+[2023.03.02-11.29.44:491][204]PIE: New page: PIE session: DefaultMap (2023. 3. 3. 오전 5:29:44)
+[2023.03.02-11.29.44:521][204]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.02-11.29.44:523][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002060s)
+[2023.03.02-11.29.44:524][204]LogAIModule: Creating AISystem for world DefaultMap
+[2023.03.02-11.29.44:524][204]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2023.03.02-11.29.44:524][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.003400s)
+[2023.03.02-11.29.44:589][204]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.03.02-11.29.44:589][204]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.03.02-11.29.44:589][204]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-11.29.44:589][204]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-11.29.44:589][204]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-11.29.44:589][204]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-11.29.44:589][204]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-11.29.44:589][204]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-11.29.44:589][204]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-11.29.44:589][204]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-11.29.44:590][204]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.02-11.29.44:590][204]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-11.29.44:592][204]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-11.29.44:592][204]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-11.29.44:604][204]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.03.02-11.29.44:604][204]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-11.29.44:605][204]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-11.29.44:605][204]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-11.29.44:605][204]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-11.29.44:605][204]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-11.29.44:605][204]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-11.29.44:616][204]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-11.29.44:616][204]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-11.29.44:616][204]LogInit: FAudioDevice initialized.
+[2023.03.02-11.29.44:616][204]LogAudio: Display: Audio Device (ID: 18) registered with world 'DefaultMap'.
+[2023.03.02-11.29.44:627][204]LogLoad: Game class is 'ShootingGameGameModeBaseBP_C'
+[2023.03.02-11.29.44:627][204]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2023.03.02-20.29.44
+[2023.03.02-11.29.44:627][204]LogWorld: Bringing up level for play took: 0.000439
+[2023.03.02-11.29.44:628][204]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2023.03.02-11.29.44:630][204]PIE: Server logged in
+[2023.03.02-11.29.44:631][204]PIE: Play in editor total start time 0.238 seconds.
+[2023.03.02-11.30.34:261][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-11.30.34:261][150]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.02-11.30.34:261][150]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.30.34:261][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.30.34:271][150]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-11.30.34:287][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.30.34:297][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-11.30.34:297][150]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-11.30.34:298][150]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-11.30.34:314][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.03.02-11.30.34:345][151]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.03.02-11.30.34:588][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.03.02-11.30.34:595][176]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap19EB6DCD4134DF60A574D8941F8C25D8.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap.umap'
+[2023.03.02-11.30.34:604][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2023.03.02-11.30.34:616][176]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap_BuiltData779D0B1F450437BF005E42B97FC2E28C.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2023.03.02-11.30.34:628][176]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.02-11.30.34:628][176]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2023.03.02-11.30.34:628][176]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2023.03.02-11.30.58:453][290]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-11.30.58:460][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-11.30.58:460][290]PIE: New page: PIE session: DefaultMap (2023. 3. 3. 오전 5:30:58)
+[2023.03.02-11.30.58:460][290]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.02-11.30.58:462][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001965s)
+[2023.03.02-11.30.58:463][290]LogAIModule: Creating AISystem for world DefaultMap
+[2023.03.02-11.30.58:463][290]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2023.03.02-11.30.58:463][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.003117s)
+[2023.03.02-11.30.58:476][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.03.02-11.30.58:476][290]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.03.02-11.30.58:476][290]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-11.30.58:476][290]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-11.30.58:476][290]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-11.30.58:476][290]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-11.30.58:476][290]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-11.30.58:476][290]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-11.30.58:477][290]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-11.30.58:477][290]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-11.30.58:477][290]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.02-11.30.58:477][290]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-11.30.58:478][290]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-11.30.58:478][290]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-11.30.58:491][290]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.03.02-11.30.58:491][290]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-11.30.58:491][290]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-11.30.58:491][290]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-11.30.58:492][290]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-11.30.58:492][290]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-11.30.58:492][290]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-11.30.58:503][290]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-11.30.58:503][290]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-11.30.58:503][290]LogInit: FAudioDevice initialized.
+[2023.03.02-11.30.58:503][290]LogAudio: Display: Audio Device (ID: 19) registered with world 'DefaultMap'.
+[2023.03.02-11.30.58:508][290]LogLoad: Game class is 'ShootingGameGameModeBaseBP_C'
+[2023.03.02-11.30.58:509][290]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2023.03.02-20.30.58
+[2023.03.02-11.30.58:509][290]LogWorld: Bringing up level for play took: 0.000471
+[2023.03.02-11.30.58:509][290]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2023.03.02-11.30.58:511][290]PIE: Server logged in
+[2023.03.02-11.30.58:512][290]PIE: Play in editor total start time 0.053 seconds.
+[2023.03.02-11.30.59:024][350]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.30.59:856][450]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.30.59:997][467]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.00:131][483]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.00:314][505]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.00:466][523]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.00:631][543]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.35:383][710]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.35:542][729]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.35:817][762]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.35:984][782]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.36:134][800]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.36:284][818]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.36:657][853]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.36:824][873]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.36:965][890]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.37:090][905]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.37:224][921]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.37:573][963]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.37:723][981]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.37:881][  0]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.38:057][ 21]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.38:190][ 37]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.38:340][ 55]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.38:490][ 73]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.38:648][ 92]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.38:807][111]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.38:949][128]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.39:099][146]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.39:265][166]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.39:424][185]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.39:582][204]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.39:748][224]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.39:915][244]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.40:082][264]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.40:232][282]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.31.41:432][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-11.31.41:432][422]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.02-11.31.41:432][422]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.31.41:432][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.31.41:441][422]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-11.31.41:456][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.31.41:466][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-11.31.41:467][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-11.31.41:468][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-11.31.41:483][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.03.02-11.31.41:513][423]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.03.02-11.31.41:717][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.03.02-11.31.41:724][443]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap53CDE23B433DFA90C76364B02168CB9D.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap.umap'
+[2023.03.02-11.31.41:732][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2023.03.02-11.31.41:745][443]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap_BuiltDataCB0C53DB4EB9BDA5C6168598FCA950CD.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2023.03.02-11.31.41:755][443]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.02-11.31.41:755][443]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2023.03.02-11.31.41:755][443]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2023.03.02-11.33.07:394][477]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.33.07:399][477]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.02-11.33.07:666][477]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.03.02-11.33.08:751][573]LogSlate: Window 'RunningBlendSpace' being destroyed
+[2023.03.02-11.33.08:756][573]LogSlate: Window 'RunningBlendSpace' being destroyed
+[2023.03.02-11.33.08:791][573]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.33.08:791][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.33.08:829][573]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.33.08:829][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.35.08:254][586]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/_Game/Character/Animations/RunningBlendSpace.RunningBlendSpace
+[2023.03.02-11.35.08:259][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.02-11.35.08:537][586]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.03.02-11.37.09:738][734]LogRenderer: Reallocating scene render targets to support 1268x660 Format 10 NumSamples 1 (Frame:3908).
+[2023.03.02-11.37.09:780][735]LogRenderer: Reallocating scene render targets to support 1276x660 Format 10 NumSamples 1 (Frame:3910).
+[2023.03.02-11.37.09:827][736]LogRenderer: Reallocating scene render targets to support 1280x660 Format 10 NumSamples 1 (Frame:3912).
+[2023.03.02-11.37.09:950][742]LogRenderer: Reallocating scene render targets to support 1284x660 Format 10 NumSamples 1 (Frame:3920).
+[2023.03.02-11.37.09:987][743]LogRenderer: Reallocating scene render targets to support 1292x660 Format 10 NumSamples 1 (Frame:3922).
+[2023.03.02-11.37.10:028][744]LogRenderer: Reallocating scene render targets to support 1296x660 Format 10 NumSamples 1 (Frame:3924).
+[2023.03.02-11.41.18:000][163]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Game/Character/ShooterCharacterBP.ShooterCharacterBP
+[2023.03.02-11.41.19:858][297]LogRenderer: Reallocating scene render targets to support 1296x712 Format 10 NumSamples 1 (Frame:1).
+[2023.03.02-11.41.24:220][674]LogSlate: Window 'ShooterCharacterBP' being destroyed
+[2023.03.02-11.41.24:226][674]LogSlate: Window 'ShooterCharacterBP' being destroyed
+[2023.03.02-11.41.24:251][674]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.41.24:251][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.41.24:309][674]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.41.24:309][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.41.24:332][674]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.41.24:332][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.41.26:256][861]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/_Game/Character/ShooterAnimBP.ShooterAnimBP
+[2023.03.02-11.41.26:261][861]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.02-11.41.26:794][861]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.03.02-11.42.43:311][707]LogSlate: Window 'ShooterAnimBP' being destroyed
+[2023.03.02-11.42.43:316][707]LogSlate: Window 'ShooterAnimBP' being destroyed
+[2023.03.02-11.42.43:361][707]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.42.43:361][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.42.43:367][707]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.42.43:367][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.42.43:431][707]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.42.43:432][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.42.45:558][941]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-11.42.45:563][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-11.42.45:563][941]PIE: New page: PIE session: DefaultMap (2023. 3. 3. 오전 5:42:45)
+[2023.03.02-11.42.45:601][941]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.02-11.42.45:603][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002124s)
+[2023.03.02-11.42.45:604][941]LogAIModule: Creating AISystem for world DefaultMap
+[2023.03.02-11.42.45:604][941]LogPlayLevel: PIE: World Init took: (0.001285s)
+[2023.03.02-11.42.45:604][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.003537s)
+[2023.03.02-11.42.45:625][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.03.02-11.42.45:634][941]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.03.02-11.42.45:634][941]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-11.42.45:634][941]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-11.42.45:634][941]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-11.42.45:634][941]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-11.42.45:634][941]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-11.42.45:634][941]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-11.42.45:634][941]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-11.42.45:634][941]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-11.42.45:634][941]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.02-11.42.45:634][941]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-11.42.45:636][941]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-11.42.45:636][941]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-11.42.45:648][941]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.03.02-11.42.45:649][941]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-11.42.45:649][941]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-11.42.45:649][941]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-11.42.45:649][941]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-11.42.45:649][941]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-11.42.45:649][941]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-11.42.45:661][941]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-11.42.45:661][941]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-11.42.45:661][941]LogInit: FAudioDevice initialized.
+[2023.03.02-11.42.45:661][941]LogAudio: Display: Audio Device (ID: 20) registered with world 'DefaultMap'.
+[2023.03.02-11.42.45:669][941]LogLoad: Game class is 'ShootingGameGameModeBaseBP_C'
+[2023.03.02-11.42.45:670][941]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2023.03.02-20.42.45
+[2023.03.02-11.42.45:670][941]LogWorld: Bringing up level for play took: 0.000489
+[2023.03.02-11.42.45:670][941]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2023.03.02-11.42.45:673][941]PIE: Server logged in
+[2023.03.02-11.42.45:674][941]PIE: Play in editor total start time 0.112 seconds.
+[2023.03.02-11.43.02:411][  9]LogTemp: Warning: Fire Weapon.
+[2023.03.02-11.43.08:532][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-11.43.08:532][739]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.02-11.43.08:532][739]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-11.43.08:532][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.43.08:543][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-11.43.08:558][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-11.43.08:568][739]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-11.43.08:569][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-11.43.08:570][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-11.43.08:582][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-11.43.08:585][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.03.02-11.43.08:617][740]LogPlayLevel: Display: Destroying online subsystem :Context_42
