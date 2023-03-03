@@ -17,7 +17,9 @@ AShooterCharacter::AShooterCharacter()
 	,BaseLookUpRate(90.f)
 	,bAiming(false)
 	, CameraDefaultFOV(0.f) // Set in BeginPlay
-	, CameraZoomedFOV(60.f)
+	, CameraZoomedFOV(35.f)
+	, CameraCurrentFOV(0.f)
+	,ZoomInterpSpeed(20.0f)
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -28,12 +30,12 @@ AShooterCharacter::AShooterCharacter()
 	CameraBoom->SetupAttachment(RootComponent);
 
 	// The Camera follows at this distance behind the character
-	CameraBoom->TargetArmLength = 300.0f;
+	CameraBoom->TargetArmLength = 180.0f;
 	// Rotate the arm based on the controller
 	CameraBoom->bUsePawnControlRotation = true;
 
 
-	CameraBoom->SocketOffset = FVector(0.f, 50.f, 50.f);
+	CameraBoom->SocketOffset = FVector(0.f, 50.f, 70.f);
 
 	// Create a Foolow Camera
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
@@ -63,6 +65,7 @@ void AShooterCharacter::BeginPlay()
 	if (FollowCamera)
 	{
 		CameraDefaultFOV = GetFollowCamera()->FieldOfView;
+		CameraCurrentFOV = CameraDefaultFOV;
 	}
 }
 
@@ -217,7 +220,7 @@ void AShooterCharacter::AimingButtonPressed()
 {
 	bAiming = true;
 
-	GetFollowCamera()->SetFieldOfView(CameraZoomedFOV);
+	//GetFollowCamera()->SetFieldOfView(CameraZoomedFOV);
 
 }
 
@@ -225,13 +228,26 @@ void AShooterCharacter::AimingButtonReleased()
 {
 	bAiming = false;
 
-	GetFollowCamera()->SetFieldOfView(CameraDefaultFOV);
+	//GetFollowCamera()->SetFieldOfView(CameraDefaultFOV);
+}
+
+void AShooterCharacter::CameraZoomInOut(const float Deltatime)
+{	
+	// Set Current Camera FOV
+	if (bAiming)// Interpolate to zoomed FOV
+		CameraCurrentFOV = FMath::FInterpTo(CameraCurrentFOV, CameraZoomedFOV, Deltatime, ZoomInterpSpeed);
+	else// Interpolate to defualt FOV
+		CameraCurrentFOV = FMath::FInterpTo(CameraCurrentFOV, CameraDefaultFOV, Deltatime, ZoomInterpSpeed);
+	GetFollowCamera()->SetFieldOfView(CameraCurrentFOV);
+
 }
 
 // Called every frame
 void AShooterCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	CameraZoomInOut(DeltaTime);
 
 }
 

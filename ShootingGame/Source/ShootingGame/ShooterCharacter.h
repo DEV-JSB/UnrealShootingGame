@@ -45,6 +45,7 @@ protected:
 	void AimingButtonPressed();
 	void AimingButtonReleased();
 
+	void CameraZoomInOut(const float Deltatime);
 
 public:	
 	// Called every frame
@@ -101,6 +102,13 @@ private:
 
 	// Field of View value for when zoomed in
 	float CameraZoomedFOV;
+
+	// Current Field of view this frame
+	float CameraCurrentFOV;
+
+	// Interp Speed for Zooming when Aiming
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Combat, meta = (AllowPrivateAccess = "true"))
+	float ZoomInterpSpeed;
 
 public:
 	// Returns CameraBoom subobject
