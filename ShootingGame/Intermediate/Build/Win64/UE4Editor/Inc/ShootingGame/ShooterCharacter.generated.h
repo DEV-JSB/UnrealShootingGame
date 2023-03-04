@@ -63,6 +63,14 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AShooterCharacter); \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AShooterCharacter, FollowCamera); } \
 	FORCEINLINE static uint32 __PPO__BaseTurnRate() { return STRUCT_OFFSET(AShooterCharacter, BaseTurnRate); } \
 	FORCEINLINE static uint32 __PPO__BaseLookUpRate() { return STRUCT_OFFSET(AShooterCharacter, BaseLookUpRate); } \
+	FORCEINLINE static uint32 __PPO__HipTurnRate() { return STRUCT_OFFSET(AShooterCharacter, HipTurnRate); } \
+	FORCEINLINE static uint32 __PPO__HipLookUpRate() { return STRUCT_OFFSET(AShooterCharacter, HipLookUpRate); } \
+	FORCEINLINE static uint32 __PPO__AimingTurnRate() { return STRUCT_OFFSET(AShooterCharacter, AimingTurnRate); } \
+	FORCEINLINE static uint32 __PPO__AimingLookUpRate() { return STRUCT_OFFSET(AShooterCharacter, AimingLookUpRate); } \
+	FORCEINLINE static uint32 __PPO__MouseHipTurnRate() { return STRUCT_OFFSET(AShooterCharacter, MouseHipTurnRate); } \
+	FORCEINLINE static uint32 __PPO__MouseHipLookUpRate() { return STRUCT_OFFSET(AShooterCharacter, MouseHipLookUpRate); } \
+	FORCEINLINE static uint32 __PPO__MouseAimingTurnRate() { return STRUCT_OFFSET(AShooterCharacter, MouseAimingTurnRate); } \
+	FORCEINLINE static uint32 __PPO__MouseAimingLookUpRate() { return STRUCT_OFFSET(AShooterCharacter, MouseAimingLookUpRate); } \
 	FORCEINLINE static uint32 __PPO__FireSound() { return STRUCT_OFFSET(AShooterCharacter, FireSound); } \
 	FORCEINLINE static uint32 __PPO__MuzzleFlash() { return STRUCT_OFFSET(AShooterCharacter, MuzzleFlash); } \
 	FORCEINLINE static uint32 __PPO__HipFireMontage() { return STRUCT_OFFSET(AShooterCharacter, HipFireMontage); } \
