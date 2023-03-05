@@ -54,6 +54,8 @@ protected:
 	void CameraZoomInOut(const float Deltatime);
 	// Set BaseTurnRate and BaseLookUpRate Based on aiming
 	void SetLookRates();
+
+	void CalculateCrosshairSpread(float DeltaTime);
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -145,6 +147,22 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Combat, meta = (AllowPrivateAccess = "true"))
 	float ZoomInterpSpeed;
 
+	// Detetermines the spread of the crosshairs
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Crosshairs, meta = (AllowPrivateAccess = "true"))
+	float CrosshairSpreadMultiplier;
+	// Velocity component for crosshairs spread
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Crosshairs, meta = (AllowPrivateAccess = "true"))
+	float CrosshairVelocityFactor;
+	// In Air component for crosshairs spread
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Crosshairs, meta = (AllowPrivateAccess = "true"))
+	float CrosshairInAirFactor;
+	// Aim component for crosshairs spread
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Crosshairs, meta = (AllowPrivateAccess = "true"))
+	float CorsshairAimFactor;
+	// Shooting component for crosshairs spread
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Crosshairs, meta = (AllowPrivateAccess = "true"))
+	float CrosshairShootingFactor;
+
 public:
 	// Returns CameraBoom subobject
 	FORCEINLINE USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
@@ -155,4 +173,6 @@ public:
 
 	FORCEINLINE bool GetIsAiming() const { return bAiming; }
 
+	UFUNCTION(BlueprintCallable)
+	float GetCrosshairSpreadMultiplier()const;
 };

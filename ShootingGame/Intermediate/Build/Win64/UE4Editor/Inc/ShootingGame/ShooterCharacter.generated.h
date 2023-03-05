@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define SHOOTINGGAME_ShooterCharacter_generated_h
 
 #define ShootingGame_Source_ShootingGame_ShooterCharacter_h_12_SPARSE_DATA
-#define ShootingGame_Source_ShootingGame_ShooterCharacter_h_12_RPC_WRAPPERS
-#define ShootingGame_Source_ShootingGame_ShooterCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define ShootingGame_Source_ShootingGame_ShooterCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetCrosshairSpreadMultiplier);
+
+
+#define ShootingGame_Source_ShootingGame_ShooterCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetCrosshairSpreadMultiplier);
+
+
 #define ShootingGame_Source_ShootingGame_ShooterCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAShooterCharacter(); \
@@ -77,7 +85,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AShooterCharacter); \
 	FORCEINLINE static uint32 __PPO__ImpactParticles() { return STRUCT_OFFSET(AShooterCharacter, ImpactParticles); } \
 	FORCEINLINE static uint32 __PPO__BeamParticles() { return STRUCT_OFFSET(AShooterCharacter, BeamParticles); } \
 	FORCEINLINE static uint32 __PPO__bAiming() { return STRUCT_OFFSET(AShooterCharacter, bAiming); } \
-	FORCEINLINE static uint32 __PPO__ZoomInterpSpeed() { return STRUCT_OFFSET(AShooterCharacter, ZoomInterpSpeed); }
+	FORCEINLINE static uint32 __PPO__ZoomInterpSpeed() { return STRUCT_OFFSET(AShooterCharacter, ZoomInterpSpeed); } \
+	FORCEINLINE static uint32 __PPO__CrosshairSpreadMultiplier() { return STRUCT_OFFSET(AShooterCharacter, CrosshairSpreadMultiplier); } \
+	FORCEINLINE static uint32 __PPO__CrosshairVelocityFactor() { return STRUCT_OFFSET(AShooterCharacter, CrosshairVelocityFactor); } \
+	FORCEINLINE static uint32 __PPO__CrosshairInAirFactor() { return STRUCT_OFFSET(AShooterCharacter, CrosshairInAirFactor); } \
+	FORCEINLINE static uint32 __PPO__CorsshairAimFactor() { return STRUCT_OFFSET(AShooterCharacter, CorsshairAimFactor); } \
+	FORCEINLINE static uint32 __PPO__CrosshairShootingFactor() { return STRUCT_OFFSET(AShooterCharacter, CrosshairShootingFactor); }
 
 
 #define ShootingGame_Source_ShootingGame_ShooterCharacter_h_9_PROLOG
