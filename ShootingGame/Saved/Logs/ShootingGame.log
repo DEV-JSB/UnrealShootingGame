@@ -3268,3 +3268,620 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.06-18.51.52:867][522]AssetCheck: New page: Asset Save: multiple assets
 [2023.03.06-18.51.52:867][522]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
 [2023.03.06-18.51.52:867][522]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2023.03.06-18.53.10:797][209]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.06-18.53.10:802][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.06-18.53.10:802][209]PIE: New page: PIE session: DefaultMap (2023. 3. 7. 오후 12:53:10)
+[2023.03.06-18.53.10:833][209]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.06-18.53.10:835][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002085s)
+[2023.03.06-18.53.10:837][209]LogAIModule: Creating AISystem for world DefaultMap
+[2023.03.06-18.53.10:838][209]LogPlayLevel: PIE: World Init took: (0.002308s)
+[2023.03.06-18.53.10:838][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.004570s)
+[2023.03.06-18.53.10:859][209]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.03.06-18.53.10:860][209]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2023.03.06-18.53.10:860][209]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.06-18.53.10:860][209]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.06-18.53.10:860][209]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.06-18.53.10:860][209]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.06-18.53.10:860][209]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.06-18.53.10:860][209]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.06-18.53.10:860][209]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.06-18.53.10:860][209]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.06-18.53.10:860][209]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.06-18.53.10:861][209]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.06-18.53.10:862][209]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.06-18.53.10:862][209]LogAudioMixer: Display: 1: FrontRight
+[2023.03.06-18.53.10:875][209]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.03.06-18.53.10:876][209]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.06-18.53.10:876][209]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.06-18.53.10:876][209]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.06-18.53.10:876][209]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.06-18.53.10:876][209]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.06-18.53.10:876][209]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.06-18.53.10:887][209]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.06-18.53.10:887][209]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.06-18.53.10:887][209]LogInit: FAudioDevice initialized.
+[2023.03.06-18.53.10:887][209]LogAudio: Display: Audio Device (ID: 32) registered with world 'DefaultMap'.
+[2023.03.06-18.53.10:895][209]LogLoad: Game class is 'ShootingGameGameModeBaseBP_C'
+[2023.03.06-18.53.10:895][209]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2023.03.07-03.53.10
+[2023.03.06-18.53.10:895][209]LogWorld: Bringing up level for play took: 0.000461
+[2023.03.06-18.53.10:896][209]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2023.03.06-18.53.10:898][209]PIE: Server logged in
+[2023.03.06-18.53.10:899][209]PIE: Play in editor total start time 0.098 seconds.
+[2023.03.06-18.53.11:084][229]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.14:160][596]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.14:305][613]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.14:724][663]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.14:858][679]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.23:824][752]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.23:990][772]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.24:133][789]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.25:210][911]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.25:355][928]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.25:497][945]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.25:648][963]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.25:957][  0]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.26:099][ 17]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.26:244][ 34]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.26:372][ 49]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.26:537][ 69]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.26:938][117]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.27:087][135]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.27:229][152]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.27:388][171]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.27:707][209]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.27:850][226]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.28:009][245]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.28:160][263]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.28:681][325]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.28:830][343]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.29:091][374]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.29:271][395]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.29:458][417]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.29:593][433]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.29:755][452]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.29:908][470]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.30:067][489]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.30:203][505]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.30:359][523]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.30:888][586]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.31:029][603]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.31:180][621]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.31:324][638]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.31:955][713]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.32:114][732]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.32:256][749]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.33:350][880]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.33:526][901]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.33:670][918]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.33:796][933]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.34:198][981]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.34:357][  0]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.34:508][ 18]LogTemp: Warning: Fire Weapon.
+[2023.03.06-18.53.35:273][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-18.53.35:273][106]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.06-18.53.35:274][106]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-18.53.35:274][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-18.53.35:280][106]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.06-18.53.35:292][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-18.53.35:311][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-18.53.35:311][106]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.06-18.53.35:312][106]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.06-18.53.35:329][106]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2023.03.06-18.53.35:352][107]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2023.03.06-18.53.35:616][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.03.06-18.53.35:622][133]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap447CDE324CF7A78A9AB6819876A5EFFB.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap.umap'
+[2023.03.06-18.53.35:631][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2023.03.06-18.53.35:643][133]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap_BuiltData53A4B1034D07DB4193F83192715B0AD2.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2023.03.06-18.53.35:657][133]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.06-18.53.35:657][133]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2023.03.06-18.53.35:657][133]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2023.03.06-19.04.54:378][321]Candidate modules for hot reload:
+[2023.03.06-19.04.54:378][321]  ShootingGame
+[2023.03.06-19.04.54:378][321]Launching UnrealBuildTool... [D:/MVAT/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ShootingGame,7974 ShootingGameEditor Win64 Development -Project="D:/UnrealProject/UnrealShootingGame/ShootingGame/ShootingGame.uproject" "D:/UnrealProject/UnrealShootingGame/ShootingGame/ShootingGame.uproject"  -IgnoreJunk]
+[2023.03.06-19.04.54:382][321]Warning: Starting HotReload took  0.0s.
+[2023.03.06-19.05.03:261][337]CompilerResultsLog: New page: Compilation - 2023. 3. 7. 오후 1:05:03
+[2023.03.06-19.05.03:261][337]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProject\UnrealShootingGame).
+[2023.03.06-19.05.03:261][337]CompilerResultsLog: Parsing headers for ShootingGameEditor
+[2023.03.06-19.05.03:261][337]CompilerResultsLog:   Running UnrealHeaderTool "D:\UnrealProject\UnrealShootingGame\ShootingGame\ShootingGame.uproject" "D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\ShootingGameEditor\Development\ShootingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mvat1\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.03.06-19.05.03:261][337]CompilerResultsLog: Reflection code generated for ShootingGameEditor in 3.2073199 seconds
+[2023.03.06-19.05.03:261][337]CompilerResultsLog: Building ShootingGameEditor...
+[2023.03.06-19.05.03:261][337]CompilerResultsLog: Using Visual Studio 2019 14.29.30146 toolchain (D:\VS2019\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.06-19.05.03:261][337]CompilerResultsLog: Building 7 actions with 16 processes...
+[2023.03.06-19.05.03:261][337]CompilerResultsLog:   [1/7] ShootingGame.init.gen.cpp
+[2023.03.06-19.05.03:261][337]CompilerResultsLog:   [2/7] ShooterCharacter.gen.cpp
+[2023.03.06-19.05.03:261][337]CompilerResultsLog:   [3/7] ShooterAnimInstance.cpp
+[2023.03.06-19.05.03:261][337]CompilerResultsLog:   [4/7] ShooterCharacter.cpp
+[2023.03.06-19.05.03:261][337]CompilerResultsLog:   [5/7] UE4Editor-ShootingGame-7974.lib
+[2023.03.06-19.05.03:261][337]CompilerResultsLog:      Creating library D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-7974.lib and object D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-7974.exp
+[2023.03.06-19.05.03:261][337]CompilerResultsLog:   [6/7] UE4Editor-ShootingGame-7974.dll
+[2023.03.06-19.05.03:261][337]CompilerResultsLog:      Creating library D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-7974.suppressed.lib and object D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-7974.suppressed.exp
+[2023.03.06-19.05.03:261][337]CompilerResultsLog:   [7/7] ShootingGameEditor.target
+[2023.03.06-19.05.03:261][337]CompilerResultsLog: Total time in Parallel executor: 5.06 seconds
+[2023.03.06-19.05.03:261][337]CompilerResultsLog: Total execution time: 8.80 seconds
+[2023.03.06-19.05.03:261][337]LogMainFrame: MainFrame: Module compiling took 8.886 seconds
+[2023.03.06-19.05.03:289][337]LogClass: Could not find existing class ShooterCharacter in package /Script/ShootingGame for HotReload, assuming new class
+[2023.03.06-19.05.03:289][337]LogClass: Function FinishCrosshairBulletFire is new.
+[2023.03.06-19.05.03:289][337]LogClass: Function GetCrosshairSpreadMultiplier is new.
+[2023.03.06-19.05.03:302][337]LogHotReload: Re-instancing ShooterCharacter after hot-reload.
+[2023.03.06-19.05.03:347][337]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ShootingGame' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2023.03.06-19.05.03:351][337]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.06-19.05.03:416][337]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0092 seconds. Added 3604 classes and 861 folders.
+[2023.03.06-19.05.03:416][337]Display: HotReload took  9.0s.
+[2023.03.06-19.05.04:243][406]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.06-19.05.04:249][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.06-19.05.04:249][406]PIE: New page: PIE session: DefaultMap (2023. 3. 7. 오후 1:05:04)
+[2023.03.06-19.05.04:283][406]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.06-19.05.04:285][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002154s)
+[2023.03.06-19.05.04:286][406]LogAIModule: Creating AISystem for world DefaultMap
+[2023.03.06-19.05.04:286][406]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2023.03.06-19.05.04:286][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.003319s)
+[2023.03.06-19.05.04:349][406]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2023.03.06-19.05.04:351][406]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2023.03.06-19.05.04:351][406]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.06-19.05.04:351][406]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.06-19.05.04:351][406]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.06-19.05.04:351][406]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.06-19.05.04:351][406]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.06-19.05.04:351][406]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.06-19.05.04:351][406]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.06-19.05.04:351][406]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.06-19.05.04:351][406]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.06-19.05.04:351][406]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.06-19.05.04:353][406]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.06-19.05.04:353][406]LogAudioMixer: Display: 1: FrontRight
+[2023.03.06-19.05.04:365][406]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.03.06-19.05.04:366][406]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.06-19.05.04:366][406]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.06-19.05.04:366][406]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.06-19.05.04:366][406]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.06-19.05.04:366][406]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.06-19.05.04:366][406]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.06-19.05.04:367][406]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.06-19.05.04:367][406]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.06-19.05.04:367][406]LogInit: FAudioDevice initialized.
+[2023.03.06-19.05.04:367][406]LogAudio: Display: Audio Device (ID: 33) registered with world 'DefaultMap'.
+[2023.03.06-19.05.04:381][406]LogLoad: Game class is 'ShootingGameGameModeBaseBP_C'
+[2023.03.06-19.05.04:382][406]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2023.03.07-04.05.04
+[2023.03.06-19.05.04:382][406]LogWorld: Bringing up level for play took: 0.000459
+[2023.03.06-19.05.04:382][406]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2023.03.06-19.05.04:384][406]PIE: Server logged in
+[2023.03.06-19.05.04:385][406]PIE: Play in editor total start time 0.137 seconds.
+[2023.03.06-19.05.04:573][421]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.04:718][438]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.04:843][453]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.05:728][559]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.05:862][575]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.06:012][593]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.06:137][608]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.06:270][624]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.07:322][750]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.07:472][768]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.07:605][784]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.07:738][800]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.07:871][816]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.08:005][832]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.08:147][849]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.08:289][866]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.08:789][926]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.08:939][944]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.09:108][964]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.09:233][979]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.09:375][996]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.09:525][ 14]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.09:676][ 32]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.09:819][ 49]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.10:770][163]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.10:923][181]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.11:064][197]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.11:203][213]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.11:736][276]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.11:862][290]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.12:018][308]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.12:212][331]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.12:372][350]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.13:350][467]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.13:492][483]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.13:646][501]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.13:770][516]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.15:103][676]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.15:254][694]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.15:613][737]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.15:763][755]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.15:913][773]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.16:765][875]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.16:906][892]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.17:073][912]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.17:589][974]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.17:740][992]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.17:890][ 10]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.18:031][ 27]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.18:174][ 44]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.18:882][129]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.19:016][145]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.19:183][165]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.19:316][181]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.19:857][246]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.19:983][261]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.20:108][276]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.20:566][331]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.20:708][348]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.20:851][365]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.21:001][383]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.21:110][396]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.21:252][413]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.21:376][428]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.21:502][443]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.21:619][457]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.22:069][511]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.22:218][529]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.22:369][547]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.22:503][563]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.22:644][580]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.22:828][602]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.23:546][688]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.23:705][707]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.23:871][727]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.24:663][822]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.24:814][840]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.24:956][857]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.25:641][939]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.25:857][965]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.26:398][ 30]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.26:574][ 51]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.26:749][ 72]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.27:457][157]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.27:600][174]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.27:749][192]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.28:324][261]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.28:483][280]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.30:059][469]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.30:377][507]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.30:544][527]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.30:719][548]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.32:219][728]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.32:494][761]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.32:978][819]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.33:337][862]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.33:861][925]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.34:062][949]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.34:327][981]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.34:745][ 31]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.34:979][ 59]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.35:345][103]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.36:170][202]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.05.36:862][285]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.06.12:439][551]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.06.12:607][571]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.06.13:399][666]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.06.22:257][729]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.08.36:218][795]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.08.36:818][867]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.08.37:002][889]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.08.44:504][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-19.08.44:505][786]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.06-19.08.44:505][786]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-19.08.44:505][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-19.08.44:510][786]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.06-19.08.44:521][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-19.08.44:537][786]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.06-19.08.44:538][786]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.06-19.08.44:539][786]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.06-19.08.44:551][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-19.08.44:555][786]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2023.03.06-19.08.44:580][787]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2023.03.06-19.08.44:830][812]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2023.03.06-19.08.44:837][812]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap9BD08061497CE3343B27A3A3E2D6009E.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap.umap'
+[2023.03.06-19.08.44:846][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2023.03.06-19.08.44:859][812]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap_BuiltData5907E46E4760DA861307B4B17B97857A.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2023.03.06-19.08.44:873][812]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.06-19.08.44:873][812]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2023.03.06-19.08.44:873][812]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2023.03.06-19.09.12:375][665]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.06-19.09.12:380][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.06-19.09.12:380][665]PIE: New page: PIE session: DefaultMap (2023. 3. 7. 오후 1:09:12)
+[2023.03.06-19.09.12:415][665]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.06-19.09.12:417][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001932s)
+[2023.03.06-19.09.12:418][665]LogAIModule: Creating AISystem for world DefaultMap
+[2023.03.06-19.09.12:418][665]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2023.03.06-19.09.12:418][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.003051s)
+[2023.03.06-19.09.12:437][665]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2023.03.06-19.09.12:439][665]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2023.03.06-19.09.12:439][665]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.06-19.09.12:439][665]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.06-19.09.12:439][665]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.06-19.09.12:439][665]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.06-19.09.12:439][665]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.06-19.09.12:439][665]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.06-19.09.12:439][665]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.06-19.09.12:439][665]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.06-19.09.12:439][665]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.06-19.09.12:439][665]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.06-19.09.12:441][665]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.06-19.09.12:441][665]LogAudioMixer: Display: 1: FrontRight
+[2023.03.06-19.09.12:453][665]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.03.06-19.09.12:454][665]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.06-19.09.12:454][665]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.06-19.09.12:454][665]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.06-19.09.12:454][665]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.06-19.09.12:454][665]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.06-19.09.12:454][665]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.06-19.09.12:464][665]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.06-19.09.12:464][665]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.06-19.09.12:464][665]LogInit: FAudioDevice initialized.
+[2023.03.06-19.09.12:464][665]LogAudio: Display: Audio Device (ID: 34) registered with world 'DefaultMap'.
+[2023.03.06-19.09.12:472][665]LogLoad: Game class is 'ShootingGameGameModeBaseBP_C'
+[2023.03.06-19.09.12:473][665]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2023.03.07-04.09.12
+[2023.03.06-19.09.12:473][665]LogWorld: Bringing up level for play took: 0.000452
+[2023.03.06-19.09.12:473][665]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2023.03.06-19.09.12:476][665]PIE: Server logged in
+[2023.03.06-19.09.12:476][665]PIE: Play in editor total start time 0.097 seconds.
+[2023.03.06-19.09.24:734][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-19.09.24:734][130]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.06-19.09.24:735][130]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-19.09.24:735][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-19.09.24:740][130]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.06-19.09.24:750][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-19.09.24:767][130]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.06-19.09.24:767][130]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.06-19.09.24:768][130]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.06-19.09.24:780][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-19.09.24:783][130]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.03.06-19.09.24:804][131]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2023.03.06-19.09.25:107][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.03.06-19.09.25:114][162]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMapC73E34964750E9AA7B8F80A51C7F30A9.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap.umap'
+[2023.03.06-19.09.25:123][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2023.03.06-19.09.25:135][162]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap_BuiltData404689014FC8BB97B6496CA14084348A.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2023.03.06-19.09.25:148][162]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.06-19.09.25:148][162]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2023.03.06-19.09.25:148][162]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2023.03.06-19.12.53:101][ 38]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.06-19.12.53:106][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.06-19.12.53:106][ 38]PIE: New page: PIE session: DefaultMap (2023. 3. 7. 오후 1:12:53)
+[2023.03.06-19.12.53:144][ 38]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.06-19.12.53:146][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002135s)
+[2023.03.06-19.12.53:147][ 38]LogAIModule: Creating AISystem for world DefaultMap
+[2023.03.06-19.12.53:147][ 38]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2023.03.06-19.12.53:147][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.003428s)
+[2023.03.06-19.12.53:167][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2023.03.06-19.12.53:168][ 38]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2023.03.06-19.12.53:168][ 38]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.06-19.12.53:168][ 38]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.06-19.12.53:168][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.06-19.12.53:168][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.06-19.12.53:168][ 38]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.06-19.12.53:168][ 38]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.06-19.12.53:168][ 38]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.06-19.12.53:168][ 38]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.06-19.12.53:169][ 38]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.06-19.12.53:169][ 38]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.06-19.12.53:170][ 38]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.06-19.12.53:170][ 38]LogAudioMixer: Display: 1: FrontRight
+[2023.03.06-19.12.53:183][ 38]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.03.06-19.12.53:183][ 38]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.06-19.12.53:183][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.06-19.12.53:183][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.06-19.12.53:183][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.06-19.12.53:183][ 38]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.06-19.12.53:183][ 38]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.06-19.12.53:194][ 38]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.06-19.12.53:194][ 38]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.06-19.12.53:194][ 38]LogInit: FAudioDevice initialized.
+[2023.03.06-19.12.53:194][ 38]LogAudio: Display: Audio Device (ID: 35) registered with world 'DefaultMap'.
+[2023.03.06-19.12.53:200][ 38]LogLoad: Game class is 'ShootingGameGameModeBaseBP_C'
+[2023.03.06-19.12.53:201][ 38]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2023.03.07-04.12.53
+[2023.03.06-19.12.53:201][ 38]LogWorld: Bringing up level for play took: 0.000444
+[2023.03.06-19.12.53:201][ 38]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2023.03.06-19.12.53:204][ 38]PIE: Server logged in
+[2023.03.06-19.12.53:204][ 38]PIE: Play in editor total start time 0.099 seconds.
+[2023.03.06-19.12.53:366][ 56]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.12.54:058][139]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.12.54:200][156]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.12.54:333][172]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.12.54:466][188]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.12.54:592][203]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.12.55:017][254]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.12.55:117][266]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.12.55:475][309]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.12.55:601][324]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.12.55:751][342]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.12.55:885][358]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.12.56:018][374]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.12.56:594][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-19.12.56:595][439]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.06-19.12.56:595][439]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-19.12.56:595][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-19.12.56:603][439]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.06-19.12.56:613][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-19.12.56:629][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-19.12.56:630][439]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.06-19.12.56:631][439]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.06-19.12.56:646][439]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.03.06-19.12.56:668][440]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.03.06-19.12.58:116][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.03.06-19.12.58:123][491]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap5879D76946C3ADF25647A380525E2BB8.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap.umap'
+[2023.03.06-19.12.58:132][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2023.03.06-19.12.58:144][491]LogSavePackage: Moving '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Saved/DefaultMap_BuiltData63F4676A475B2B81E4DEFCB6E8DBFCB6.tmp' to '../../../../../UnrealProject/UnrealShootingGame/ShootingGame/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2023.03.06-19.12.58:155][491]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.06-19.12.58:155][491]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2023.03.06-19.12.58:155][491]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2023.03.06-19.19.23:649][776]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.06-19.19.23:654][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.06-19.19.23:654][776]PIE: New page: PIE session: DefaultMap (2023. 3. 7. 오후 1:19:23)
+[2023.03.06-19.19.23:654][776]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.06-19.19.23:656][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001953s)
+[2023.03.06-19.19.23:657][776]LogAIModule: Creating AISystem for world DefaultMap
+[2023.03.06-19.19.23:658][776]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2023.03.06-19.19.23:658][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.003223s)
+[2023.03.06-19.19.23:678][776]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2023.03.06-19.19.23:679][776]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2023.03.06-19.19.23:679][776]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.06-19.19.23:679][776]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.06-19.19.23:679][776]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.06-19.19.23:679][776]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.06-19.19.23:679][776]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.06-19.19.23:679][776]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.06-19.19.23:679][776]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.06-19.19.23:679][776]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.06-19.19.23:679][776]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.06-19.19.23:679][776]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.06-19.19.23:681][776]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.06-19.19.23:681][776]LogAudioMixer: Display: 1: FrontRight
+[2023.03.06-19.19.23:694][776]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.03.06-19.19.23:694][776]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.06-19.19.23:694][776]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.06-19.19.23:694][776]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.06-19.19.23:694][776]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.06-19.19.23:694][776]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.06-19.19.23:694][776]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.06-19.19.23:705][776]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.06-19.19.23:705][776]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.06-19.19.23:705][776]LogInit: FAudioDevice initialized.
+[2023.03.06-19.19.23:705][776]LogAudio: Display: Audio Device (ID: 36) registered with world 'DefaultMap'.
+[2023.03.06-19.19.23:709][776]LogLoad: Game class is 'ShootingGameGameModeBaseBP_C'
+[2023.03.06-19.19.23:710][776]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2023.03.07-04.19.23
+[2023.03.06-19.19.23:710][776]LogWorld: Bringing up level for play took: 0.000469
+[2023.03.06-19.19.23:710][776]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2023.03.06-19.19.23:712][776]PIE: Server logged in
+[2023.03.06-19.19.23:713][776]PIE: Play in editor total start time 0.059 seconds.
+[2023.03.06-19.19.23:979][806]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.24:797][904]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.24:947][922]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.25:072][937]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.25:430][980]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.25:563][996]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.25:706][ 13]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.25:847][ 30]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.25:972][ 45]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.26:106][ 61]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.26:356][ 91]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.26:513][110]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.26:814][146]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.26:972][165]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.27:122][183]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.27:273][201]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.27:415][218]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.28:581][358]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.28:731][376]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.28:873][393]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.29:016][410]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.29:415][458]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.29:557][475]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.29:682][490]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.29:891][515]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.30:049][534]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.30:191][551]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.30:333][568]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.30:449][582]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.30:799][624]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.30:942][641]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.31:067][656]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.31:226][675]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.31:350][690]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.31:483][706]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.31:609][721]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.31:759][739]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.31:909][757]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.32:075][777]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.32:176][789]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.32:312][803]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.32:446][819]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.32:595][837]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.32:728][853]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.32:870][870]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.33:003][886]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.33:578][955]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.33:729][973]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.33:879][991]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.34:012][  7]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.19.34:635][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-19.19.34:635][ 75]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.06-19.19.34:635][ 75]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-19.19.34:635][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-19.19.34:645][ 75]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.06-19.19.34:655][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-19.19.34:672][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-19.19.34:672][ 75]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.06-19.19.34:673][ 75]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.06-19.19.34:689][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2023.03.06-19.19.34:711][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.03.06-19.21.19:002][545]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.06-19.21.19:007][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.06-19.21.19:007][545]PIE: New page: PIE session: DefaultMap (2023. 3. 7. 오후 1:21:19)
+[2023.03.06-19.21.19:044][545]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2023.03.06-19.21.19:046][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001890s)
+[2023.03.06-19.21.19:046][545]LogAIModule: Creating AISystem for world DefaultMap
+[2023.03.06-19.21.19:047][545]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2023.03.06-19.21.19:047][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.003075s)
+[2023.03.06-19.21.19:066][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2023.03.06-19.21.19:067][545]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2023.03.06-19.21.19:067][545]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.06-19.21.19:067][545]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.06-19.21.19:067][545]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.06-19.21.19:067][545]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.06-19.21.19:067][545]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.06-19.21.19:067][545]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.06-19.21.19:067][545]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.06-19.21.19:067][545]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.06-19.21.19:067][545]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.06-19.21.19:067][545]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.06-19.21.19:069][545]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.06-19.21.19:069][545]LogAudioMixer: Display: 1: FrontRight
+[2023.03.06-19.21.19:081][545]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.03.06-19.21.19:081][545]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.06-19.21.19:082][545]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.06-19.21.19:082][545]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.06-19.21.19:082][545]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.06-19.21.19:082][545]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.06-19.21.19:082][545]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.06-19.21.19:092][545]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.06-19.21.19:092][545]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.06-19.21.19:092][545]LogInit: FAudioDevice initialized.
+[2023.03.06-19.21.19:092][545]LogAudio: Display: Audio Device (ID: 37) registered with world 'DefaultMap'.
+[2023.03.06-19.21.19:102][545]LogLoad: Game class is 'ShootingGameGameModeBaseBP_C'
+[2023.03.06-19.21.19:103][545]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2023.03.07-04.21.19
+[2023.03.06-19.21.19:103][545]LogWorld: Bringing up level for play took: 0.000442
+[2023.03.06-19.21.19:103][545]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2023.03.06-19.21.19:106][545]PIE: Server logged in
+[2023.03.06-19.21.19:106][545]PIE: Play in editor total start time 0.1 seconds.
+[2023.03.06-19.21.19:301][567]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.19:893][638]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.20:036][655]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.20:194][674]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.20:327][690]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.20:469][707]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.20:594][722]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.30:101][922]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.30:101][922]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.30:101][922]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.30:286][944]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.30:969][ 26]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.31:119][ 44]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.31:269][ 62]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.31:603][102]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.31:761][121]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.31:895][137]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.32:028][153]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.32:161][169]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.32:286][184]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.32:544][215]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.32:703][234]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.32:853][252]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.33:019][272]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.33:153][288]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.33:313][307]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.33:455][324]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.33:588][340]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.34:563][457]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.35:422][560]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.35:564][577]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.35:707][594]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.36:406][678]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.36:573][698]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.37:232][777]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.37:382][795]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.21.37:524][812]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.22.49:786][228]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.23.17:295][629]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.23.17:942][705]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.23.18:100][724]LogTemp: Warning: Fire Weapon.
+[2023.03.06-19.23.18:259][743]LogTemp: Warning: Fire Weapon.
