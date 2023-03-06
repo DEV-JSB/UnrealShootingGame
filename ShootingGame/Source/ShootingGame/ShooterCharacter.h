@@ -158,7 +158,7 @@ private:
 	float CrosshairInAirFactor;
 	// Aim component for crosshairs spread
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Crosshairs, meta = (AllowPrivateAccess = "true"))
-	float CorsshairAimFactor;
+	float CrosshairAimFactor;
 	// Shooting component for crosshairs spread
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Crosshairs, meta = (AllowPrivateAccess = "true"))
 	float CrosshairShootingFactor;

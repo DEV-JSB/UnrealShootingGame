@@ -89,7 +89,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AShooterCharacter); \
 	FORCEINLINE static uint32 __PPO__CrosshairSpreadMultiplier() { return STRUCT_OFFSET(AShooterCharacter, CrosshairSpreadMultiplier); } \
 	FORCEINLINE static uint32 __PPO__CrosshairVelocityFactor() { return STRUCT_OFFSET(AShooterCharacter, CrosshairVelocityFactor); } \
 	FORCEINLINE static uint32 __PPO__CrosshairInAirFactor() { return STRUCT_OFFSET(AShooterCharacter, CrosshairInAirFactor); } \
-	FORCEINLINE static uint32 __PPO__CorsshairAimFactor() { return STRUCT_OFFSET(AShooterCharacter, CorsshairAimFactor); } \
+	FORCEINLINE static uint32 __PPO__CrosshairAimFactor() { return STRUCT_OFFSET(AShooterCharacter, CrosshairAimFactor); } \
 	FORCEINLINE static uint32 __PPO__CrosshairShootingFactor() { return STRUCT_OFFSET(AShooterCharacter, CrosshairShootingFactor); }
 
 
