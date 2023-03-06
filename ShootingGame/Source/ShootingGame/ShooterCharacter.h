@@ -166,12 +166,17 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Crosshairs, meta = (AllowPrivateAccess = "true"))
 	float CrosshairAimFactor;
 	// Shooting component for crosshairs spread
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Crosshairs, meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Crosshairs, meta = (AllowPrivateAccess = "true"))
 	float CrosshairShootingFactor;
 
 	float ShootTimeDuration;
 	bool bFiringBullet;
 	FTimerHandle CrosshairShootTimer;
+
+	// MVAT Aiming Correction Value
+	// 추후에 이건 옵션으로 빼야하지 않을까??
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = HUD, meta = (AllowPrivateAccess = "true"))
+		float CorrectionValueCrossHairZ;
 
 public:
 	// Returns CameraBoom subobject
@@ -185,4 +190,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	float GetCrosshairSpreadMultiplier()const;
+
+	UFUNCTION(BlueprintCallable)
+		float GetCorrectionValueCrossHairZ()const;
 };

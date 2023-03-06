@@ -13,9 +13,9 @@
 #include "DrawDebugHelpers.h"
 // Sets default values
 AShooterCharacter::AShooterCharacter()
-	// Base Rates for turning/Looking up
+// Base Rates for turning/Looking up
 	:BaseTurnRate(90.f)
-	,BaseLookUpRate(90.f)
+	, BaseLookUpRate(90.f)
 	// Turn rates for aiming/not aiming
 	, HipTurnRate(90.f)
 	, HipLookUpRate(90.f)
@@ -27,21 +27,23 @@ AShooterCharacter::AShooterCharacter()
 	, MouseAimingTurnRate(0.2f)
 	, MouseAimingLookUpRate(0.2f)
 	// true when aiming weapon
-	,bAiming(false)
+	, bAiming(false)
 	// Camera FOV Values
 	, CameraDefaultFOV(0.f) // Set in BeginPlay
 	, CameraZoomedFOV(35.f)
 	, CameraCurrentFOV(0.f)
-	,ZoomInterpSpeed(20.0f)
+	, ZoomInterpSpeed(20.0f)
 	// Crosshair Spread Factors
-	,CrosshairSpreadMultiplier(0.f)
-	,CrosshairVelocityFactor(0.f)
-	,CrosshairInAirFactor(0.f)
-	,CrosshairAimFactor(0.f)
-	,CrosshairShootingFactor(0.f)
+	, CrosshairSpreadMultiplier(0.f)
+	, CrosshairVelocityFactor(0.f)
+	, CrosshairInAirFactor(0.f)
+	, CrosshairAimFactor(0.f)
+	, CrosshairShootingFactor(0.f)
 	// Bullet Fire timer Variables
-	,ShootTimeDuration(0.05f)
-	,bFiringBullet(false)
+	, ShootTimeDuration(0.05f)
+	, bFiringBullet(false)
+	// HUD Crosshair Correction Value
+	, CorrectionValueCrossHairZ(0.0f)
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -219,7 +221,7 @@ bool AShooterCharacter::GetBeamEndLocation(const FVector& MuzzleSocketLocation, 
 
 	//Get Screen space of crosshairs
 	FVector2D CrosshairLocation(ViewportSize.X / 2.f, ViewportSize.Y / 2.f);
-	CrosshairLocation.Y -= 50.0f;
+	CrosshairLocation.Y -= CorrectionValueCrossHairZ;
 	FVector CrosshairWorldPosition;
 	FVector CrosshairWorldDirection;
 
@@ -272,7 +274,6 @@ bool AShooterCharacter::GetBeamEndLocation(const FVector& MuzzleSocketLocation, 
 void AShooterCharacter::AimingButtonPressed()
 {
 	bAiming = true;
-
 	//GetFollowCamera()->SetFieldOfView(CameraZoomedFOV);
 
 }
@@ -285,15 +286,16 @@ void AShooterCharacter::AimingButtonReleased()
 }
 
 void AShooterCharacter::CameraZoomInOut(const float Deltatime)
-{	
-	FVector CameraLocation = GetFollowCamera()->GetRelativeLocation();
+{
 	// Set Current Camera FOV
 	if (bAiming)// Interpolate to zoomed FOV
 	{
 		CameraCurrentFOV = FMath::FInterpTo(CameraCurrentFOV, CameraZoomedFOV, Deltatime, ZoomInterpSpeed);
 	}
 	else// Interpolate to defualt FOV
+	{
 		CameraCurrentFOV = FMath::FInterpTo(CameraCurrentFOV, CameraDefaultFOV, Deltatime, ZoomInterpSpeed);
+	}
 	GetFollowCamera()->SetFieldOfView(CameraCurrentFOV);
 }
 
@@ -411,6 +413,11 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 float AShooterCharacter::GetCrosshairSpreadMultiplier() const
 {
 	return CrosshairSpreadMultiplier;
+}
+
+float AShooterCharacter::GetCorrectionValueCrossHairZ() const
+{
+	return CorrectionValueCrossHairZ;
 }
 
 

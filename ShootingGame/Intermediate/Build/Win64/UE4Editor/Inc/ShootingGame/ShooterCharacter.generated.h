@@ -16,12 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define ShootingGame_Source_ShootingGame_ShooterCharacter_h_12_SPARSE_DATA
 #define ShootingGame_Source_ShootingGame_ShooterCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetCorrectionValueCrossHairZ); \
 	DECLARE_FUNCTION(execGetCrosshairSpreadMultiplier); \
 	DECLARE_FUNCTION(execFinishCrosshairBulletFire);
 
 
 #define ShootingGame_Source_ShootingGame_ShooterCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetCorrectionValueCrossHairZ); \
 	DECLARE_FUNCTION(execGetCrosshairSpreadMultiplier); \
 	DECLARE_FUNCTION(execFinishCrosshairBulletFire);
 
@@ -92,7 +94,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AShooterCharacter); \
 	FORCEINLINE static uint32 __PPO__CrosshairVelocityFactor() { return STRUCT_OFFSET(AShooterCharacter, CrosshairVelocityFactor); } \
 	FORCEINLINE static uint32 __PPO__CrosshairInAirFactor() { return STRUCT_OFFSET(AShooterCharacter, CrosshairInAirFactor); } \
 	FORCEINLINE static uint32 __PPO__CrosshairAimFactor() { return STRUCT_OFFSET(AShooterCharacter, CrosshairAimFactor); } \
-	FORCEINLINE static uint32 __PPO__CrosshairShootingFactor() { return STRUCT_OFFSET(AShooterCharacter, CrosshairShootingFactor); }
+	FORCEINLINE static uint32 __PPO__CrosshairShootingFactor() { return STRUCT_OFFSET(AShooterCharacter, CrosshairShootingFactor); } \
+	FORCEINLINE static uint32 __PPO__CorrectionValueCrossHairZ() { return STRUCT_OFFSET(AShooterCharacter, CorrectionValueCrossHairZ); }
 
 
 #define ShootingGame_Source_ShootingGame_ShooterCharacter_h_9_PROLOG
