@@ -18,6 +18,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
  \
 	DECLARE_FUNCTION(execGetCorrectionValueCrossHairZ); \
 	DECLARE_FUNCTION(execGetCrosshairSpreadMultiplier); \
+	DECLARE_FUNCTION(execAutoFireReset); \
 	DECLARE_FUNCTION(execFinishCrosshairBulletFire);
 
 
@@ -25,6 +26,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
  \
 	DECLARE_FUNCTION(execGetCorrectionValueCrossHairZ); \
 	DECLARE_FUNCTION(execGetCrosshairSpreadMultiplier); \
+	DECLARE_FUNCTION(execAutoFireReset); \
 	DECLARE_FUNCTION(execFinishCrosshairBulletFire);
 
 

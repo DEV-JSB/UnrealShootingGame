@@ -62,6 +62,13 @@ protected:
 	UFUNCTION()
 	void FinishCrosshairBulletFire();
 
+	void FireButtonPressed();
+	void FireButtonReleased();
+
+	void StartFireTimer();
+	UFUNCTION()
+	void AutoFireReset();
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -177,6 +184,18 @@ private:
 	// 추후에 이건 옵션으로 빼야하지 않을까??
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = HUD, meta = (AllowPrivateAccess = "true"))
 		float CorrectionValueCrossHairZ;
+
+	// Left Mouse Button or right console trigger pressed
+	bool bFireButtonPressed;
+
+	// True when we can fire. False when waiting for the timer
+	bool bShouldFire;
+
+	// Rate of automatic gun fire
+	float AutomaticFireRate;
+
+	// Sets a Timer between GunShot
+	FTimerHandle AutoFireTimer;
 
 public:
 	// Returns CameraBoom subobject

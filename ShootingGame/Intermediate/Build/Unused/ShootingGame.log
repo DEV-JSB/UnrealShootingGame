@@ -3,10 +3,12 @@
   Using Visual Studio 2019 14.29.30146 toolchain (D:\VS2019\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 16 processes...
     [1/4] ShooterCharacter.cpp
-    [2/4] UE4Editor-ShootingGame-0020.lib
-       Creating library D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0020.lib and object D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0020.exp
-    [3/4] UE4Editor-ShootingGame-0020.dll
-       Creating library D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0020.suppressed.lib and object D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0020.suppressed.exp
+D:\UnrealProject\UnrealShootingGame\ShootingGame\Source\ShootingGame\ShooterCharacter.cpp(48): warning C5038: data member 'AShooterCharacter::AutomaticFireRate' will be initialized after data member 'AShooterCharacter::bShouldFire'
+D:\UnrealProject\UnrealShootingGame\ShootingGame\Source\ShootingGame\ShooterCharacter.cpp(49): warning C5038: data member 'AShooterCharacter::bShouldFire' will be initialized after data member 'AShooterCharacter::bFireButtonPressed'
+    [2/4] UE4Editor-ShootingGame-0039.lib
+       Creating library D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0039.lib and object D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0039.exp
+    [3/4] UE4Editor-ShootingGame-0039.dll
+       Creating library D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0039.suppressed.lib and object D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0039.suppressed.exp
     [4/4] ShootingGameEditor.target
-  Total time in Parallel executor: 1.90 seconds
-  Total execution time: 2.36 seconds
+  Total time in Parallel executor: 2.06 seconds
+  Total execution time: 2.50 seconds
