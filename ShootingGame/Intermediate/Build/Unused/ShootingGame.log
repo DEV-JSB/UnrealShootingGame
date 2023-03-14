@@ -1,19 +1,3 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProject\UnrealShootingGame).
-  Deleted hot-reload file: D:\UnrealProject\UnrealShootingGame\ShootingGame\Binaries\Win64\UE4Editor-ShootingGame-0016.dll
-  Deleted hot-reload file: D:\UnrealProject\UnrealShootingGame\ShootingGame\Binaries\Win64\UE4Editor-ShootingGame-0019.dll
-  Deleted hot-reload file: D:\UnrealProject\UnrealShootingGame\ShootingGame\Binaries\Win64\UE4Editor-ShootingGame-0020.dll
-  Deleted hot-reload file: D:\UnrealProject\UnrealShootingGame\ShootingGame\Binaries\Win64\UE4Editor-ShootingGame-0039.dll
-  Deleted hot-reload file: D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0016.lib
-  Deleted hot-reload file: D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0019.lib
-  Deleted hot-reload file: D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0020.lib
-  Deleted hot-reload file: D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame-0039.lib
-  Building ShootingGameEditor...
-  Using Visual Studio 2019 14.29.30146 toolchain (D:\VS2019\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 16 processes...
-    [1/3] UE4Editor-ShootingGame.lib
-       Creating library D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame.lib and object D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame.exp
-    [2/3] UE4Editor-ShootingGame.dll
-       Creating library D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame.suppressed.lib and object D:\UnrealProject\UnrealShootingGame\ShootingGame\Intermediate\Build\Win64\UE4Editor\Development\ShootingGame\UE4Editor-ShootingGame.suppressed.exp
-    [3/3] ShootingGameEditor.target
-  Total time in Parallel executor: 4.41 seconds
-  Total execution time: 8.25 seconds
+  Target is up to date
+  Total execution time: 6.61 seconds

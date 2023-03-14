@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ShootingGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{694C164E-3D3F-4BA1-B52B-3EE961889479}</UniqueIdentifier>
+      <UniqueIdentifier>{A0CDBA4F-B3BB-4E0D-97D8-9EB8C75AF465}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShootingGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C1BF8596-B2CE-40C5-9A63-C50EA6C58FF3}</UniqueIdentifier>
+      <UniqueIdentifier>{FD7B1BDF-0533-483D-95FF-5A24E01889A1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ShootingGame">
-      <UniqueIdentifier>{1DEE897D-12AD-4509-BC1B-D9392C9CA240}</UniqueIdentifier>
+      <UniqueIdentifier>{5953E47F-25F9-49B2-A896-E5EE58450C89}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ShootingGame\Item.cpp">
+      <Filter>Source\ShootingGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShootingGame\Item.h">
+      <Filter>Source\ShootingGame</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ShootingGame\ShooterAnimInstance.cpp">
       <Filter>Source\ShootingGame</Filter>
     </ClCompile>
